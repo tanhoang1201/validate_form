@@ -1,11 +1,11 @@
-import Form from "./components/Form";
+import Photo from './components/Photo'
 
 function App() {
     return (
-        <div className="App">
-            <Form />
+        <div>
+            <Photo />
         </div>
-    );
+    )
 }
 
-export default App;
+export default App
