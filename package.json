@@ -11,9 +11,17 @@
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
     "axios": "^1.2.0",
+    "pretty-checkbox": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.39.5",
+    "react-redux": "^8.0.5",
+    "react-select": "^5.6.1",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "reselect": "^4.1.7",
+    "sass": "^1.56.1",
+    "uuid": "^9.0.0",
     "yup": "^0.32.11"
   },
   "devDependencies": {

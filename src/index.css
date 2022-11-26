@@ -2,9 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #eee;
-  }
+@layer base {
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+/* body div[class*='-multiValue'] div {
+    color: white;
+} */
+
+body .css-1s2u09g-control:hover {
+    border-color: #40a9ff;
+}
+
+body .css-om66o4-control:hover {
+    border-color: #40a9ff;
+}
+
+body .css-1pahdxg-control {
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+}
+
+body .css-1g84rkv-option {
+    background-color: #f5f5f5;
+}
+
+body .css-ykyfat-multiValue {
+    background-color: #f5f5f5;
+}
+
+body .css-xb97g8 {
+    color: #666;
+}
+
+.pretty:hover .state label:before {
+    border-color: blue;
+    transition: all 0.5s ease;
+}
+
+body .css-1ncvxsc-control {
+    /* box-shadow: none; */
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+}
+
+body div[class*='-option'] {
+    cursor: pointer;
 }
